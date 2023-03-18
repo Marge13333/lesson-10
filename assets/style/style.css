@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Helvetica Neue Regular;
+    src: url(/assets/fonts/helveticaneue.ttf);
+}
+@font-face {
+    font-family: Helvetica Neue Bold;
+    src: url(/assets/fonts/Helvetica\ Neue\ Condensed\ Bold.ttf);
+}
+footer{
+    min-height: 1080px;
+    background-color: #0A22F4;
+    position: relative;
+}
+.conteiner{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin-top: 275px;
+}
+.sign-in{
+    margin-top: 335px;
+    
+}
+.phones{
+    max-width: 670px;
+    display: flex;
+    justify-content: space-between;
+    gap:100px ;
+    margin-top: 70px;
+}
+.phone-svg,.email-svg{
+    padding: 22px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.phone1,.cont-email{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.number,.e-mail{
+font-size: 22px;
+color: #ffffff;
+}
+.info-para{
+    max-width: 470px;
+    text-align: start;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-family: Helvetica Neue Regular;
+}
+h1{
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: Helvetica Neue Bold;
+}
+.map{
+    border-radius: 15px;
+}
+input{
+    height: 40px;
+    width: 450px;
+    background-color: transparent;
+    border-top-style:none;
+    border-right-style: none;
+    border-bottom-style: 1px solid #ffffff;
+    border-left-style: none ;
+	outline: none;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+    
+}
+
+textarea {
+    height: 140px;
+    width: 450px;
+    background-color: transparent;
+    border-top-style:none;
+    border-right-style: none;
+    border-bottom-style: 1px solid #ffffff;
+    border-left-style: none ;
+	outline: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.sign-in{
+    max-width: 450px;
+}
+label{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Helvetica Neue Bold;
+}
+.form-row{
+    margin-top: 40px;
+}
+.signin-button{
+    background-color: #ffffff;
+    padding: 18px 40px;
+    border-radius: 28px;
+    color: #171717;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 310px;
+    cursor: pointer;
+    transition: all .3s;
+    border: 1px solid #ffffff;
+    font-family: Helvetica Neue Bold;
+}
+.signin-button:hover{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bottom-end{
+    display:flex ;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+h2{
+    font-size: 16px;
+    color: #ffffff;
+   font-family: Helvetica Neue Bold;
+
+}
+h3, h6{
+    font-size: 13px;
+    color: #ffffff;
+    font-family: Helvetica Neue Bold;
+}
+h3{
+    padding-right: 15px;
+    font-family: Helvetica Neue Bold;
+}
+.heart{
+    padding-right: 10px;
+    width: 26px;
+    height: 26px;
+}
+h6{
+    padding-right: 30px;
+    font-family: Helvetica Neue Bold;
+}
+.logo{
+    height: 35px;
+    width: 120px;
+}
+.number,.e-mail{
+    font-family: Helvetica Neue Bold;
+    font-size: 22px;
+}
